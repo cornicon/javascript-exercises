@@ -1,9 +1,20 @@
 const sumAll = function(CountFromNumber, CountToNumber) {
     let result = 0;
-    for (let i = CountFromNumber; i <= CountToNumber; i++)
+    if(CountFromNumber <= CountToNumber)
     {
-        result += i;
+        for (let i = CountFromNumber; i <= CountToNumber; i++)
+        {
+            result += i;
+        }
     }
+    else
+    {
+        for (let i = CountToNumber; i <= CountFromNumber; i++)
+        {
+            result += i;
+        }
+    }
+
     return result;
 };
 
