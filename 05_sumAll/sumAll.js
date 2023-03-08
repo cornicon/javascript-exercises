@@ -1,6 +1,7 @@
 const sumAll = function(CountFromNumber, CountToNumber) {
-    if(CountFromNumber < 0 || CountToNumber < 0)
-        return 'ERROR';
+    if(CountFromNumber < 0 || CountToNumber < 0
+        || typeof(CountFromNumber) != typeof(1) || typeof(CountToNumber) != typeof(1))
+            return 'ERROR';
     let result = 0;
     if(CountFromNumber <= CountToNumber)
     {
