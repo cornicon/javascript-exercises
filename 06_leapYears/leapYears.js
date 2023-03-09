@@ -5,6 +5,8 @@ const leapYears = function(Year) {
         return false;
     else if(Year % 4 === 0)
         return true;
+    else
+        return false;
 };
 
 // Do not edit below this line
