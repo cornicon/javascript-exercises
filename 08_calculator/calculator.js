@@ -9,8 +9,10 @@ const subtract = function(a, b) {
 // return sum of an array
 const sum = function(arrayNumbers) {
   let sum = 0;
-	for(let number in arrayNumbers)
+	for(let number of arrayNumbers)
+  {
     sum += number;
+  }
   return sum;
 };
 
