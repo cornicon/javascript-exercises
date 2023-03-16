@@ -18,7 +18,7 @@ const sum = function(arrayNumbers) {
 
 const multiply = function(arrayNumbers) {
   let result = 1;
-  for(let number in arrayNumbers)
+  for(let number of arrayNumbers)
   {
     result *= number; 
   }
