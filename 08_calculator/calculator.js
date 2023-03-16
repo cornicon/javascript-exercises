@@ -36,7 +36,7 @@ const power = function(base, exponent) {
 
 const factorial = function(number) {
 	let result = 1;
-  for(number; number > 1; i--)
+  for(number; number > 1; number--)
   {
     result *= number;
   }
