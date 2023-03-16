@@ -1,5 +1,7 @@
 const fibonacci = function(input) {
     let fibonacciNumberIndex = Number(input);
+    if(fibonacciNumberIndex < 1)
+        return 'OOPS';
     let fibArray = [1, 1];
     for(let i = 0; i <= fibonacciNumberIndex - 2; i++)
     {
